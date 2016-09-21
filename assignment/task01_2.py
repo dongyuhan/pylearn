@@ -6,6 +6,8 @@
 """
 四则运算
 """
+
+
 def show_nenu():
     cmd_menu = ("\n"
                 "[1] Add\n"
