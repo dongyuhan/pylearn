@@ -35,5 +35,6 @@ show_nenu()
 choice = int(input("Enter your choice:"))
 f1 = int(input("First Number:"))
 f2 = int(input("Second Number:"))
-opt = ['+', '-', '*', '/']
+# opt = ['+', '-', '*', '/']
+opt = ('+', '-', '*', '/')  # opt 改成了只读的元组这样更好一些
 print("{0} {1} {2} = {3}".format(f1, opt[choice - 1], f2, calc(f1, f2, choice)))
