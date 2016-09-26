@@ -7,7 +7,7 @@
 终极金字塔
 """
 
-def triangle(maxLevel):
+def triangle(maxLevel = 4):
     level = 0
     while level < maxLevel:
         n = level * 2 + 1  # n 代表* 的个数
@@ -24,10 +24,10 @@ if num.isnumeric():
     elif n<3:
         print('层数太小，法老住不下！')
     else:
-        triangle(int(n))
+        triangle(n)
 
 if len(num) == 0:
-    triangle(4)
+    triangle()
 
 if num.isalpha():
     print("请输入3到10之前的数字")
