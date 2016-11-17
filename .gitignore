@@ -1,0 +1,4 @@
+# 忽略 pycharm 创建的 .idea 文件夹
+.idea
+
+
